@@ -1,0 +1,47 @@
+.NavigationHeader {
+    padding: 35px 15px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    // width: 100%;
+
+    .navigation {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+
+        .navigationLink a {
+            text-decoration: none;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+
+            color: #232425;
+        }
+    }
+
+    .button {
+        background-color: #f4ab00;
+        padding: 10px 20px;
+        border-radius: 32px; // Скругление кнопки
+        text-decoration: none;
+
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        /* identical to box height, or 146% */
+        text-align: center;
+
+        color: #ffffff;
+    }
+}
